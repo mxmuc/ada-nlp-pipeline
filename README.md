@@ -60,19 +60,12 @@ The overall structure looks like this:
 * `load_data.ipynb` notebook contains functions to load data from a json file (found [here](https://drive.google.com/drive/folders/1R-GVIdxU3jkQb5zU0uG9044Vynh9nYR1?usp=sharing)), and perform initial filtering operations;
 * `exploratory_data_analysis.ipynb` notebook contains the entire exploratory analysis: starting from data loading and preprocessing, the focus moves towards the analysis of quotes frequency among different political parties, adding then gender and finally climate change as main topic;
 * `nlp_pipeline.ipynb` notebook is the core of our project: focusing on climate change only related quotes, it contains the similarity analysis using bert embedding both at party and speaker level, the topic detection NLP pipeline and the semantic analysis based on lexical categories.
-## Proposed Timeline
 
-| Project Milestone     | Date                   | Task                          | Deliverables |
-|-----------------------|------------------------|-------------------------------|--------------|
-| P3                    | until 2021-11-12       | Finalize data transformations | Merged, cleaned and deduplicated dataset with initial descriptive statistics |
-| P3.1                  | until 2021-12-01       | NLP pre-processing of the quotes using BERT | NLP embeddings|
-| P3.2                  | until 2021-12-05       | Define topics/concepts (e.g., remembrance, solidarity, ...) and measures to compare subgroups against these topics such as between-group difference and within-group similarity   | list of topics and nearest word stems |
-| P3.3                  | until 2021-12-13       | Inferential statistical analysis | Jupyter notebooks with plots and textual descriptions|
-| P3.4                  | until 2021-12-15       | Create datastory | Web page visualizing our data story|
-| P3.5                    | until 2021-12-17       | Buffer for refinements | final repository containing a well-defined README, a web page visualizing our datastory and different supporting Jupyter notebooks   |
+## Team Members
 
-## Team Organization
-* **Maximilian Pfleger**: research question formulation, climate change data filtering, topic detection and visualization, semantic analysis based on lexical categories, github website setup, data story par. *semantic analysis* and par. *final words*;
-* **Paolo Celada**: data loading and initial filtering, choiche of similarity metric, sentence cleaning, similarity network and visualizations, data story visualizations set-up, data story par. *quote similarity*, `README` update and produce `requirements.txt`;
-* **Yasmine Karoui**: research question formulation, wikidata handling, bert sentence embedding set-up, similarity matrix, data story par. *introduction* and par. *topic detection*;
-* **Lorenzo Taschin**: initial data exploration, study of climate change related quotes, quote frequency visualization based on party and topic, similarity-related t-test and confidence intervals, data story par. *climate change in US politics*.
+| 👤                    | 📨                           |
+|-----------------------|------------------------------|
+| Maximilian Pfleger    | maximilian.pfleger@epfl.ch   |
+| Paolo Celada          | paolo.celada@epfl.ch         |
+| Yasmine Karoui        | yasmine.karoui@epfl.ch       |
+| Lorenzo Taschin       | lorenzo.taschin@epfl.ch      |
